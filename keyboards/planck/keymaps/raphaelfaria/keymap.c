@@ -61,7 +61,7 @@ qk_tap_dance_action_t tap_dance_actions[] = {
 #define CTL_ESC CTL_T(KC_ESC)
 #define GUI_L RGUI_T(KC_LEFT)
 #define ALT_D RALT_T(KC_DOWN)
-#define CTL_U RGUI_T(KC_UP)
+#define CTL_U RCTL_T(KC_UP)
 
 #define TD_PRN TD(TD_LPRN_RPRN)
 #define TD_CBR TD(TD_LCBR_RCBR)
