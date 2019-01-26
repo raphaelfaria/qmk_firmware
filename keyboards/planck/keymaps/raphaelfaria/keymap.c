@@ -124,21 +124,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 
 [_LOWER] = LAYOUT_planck_grid(
-    _______, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_DEL,
+    _______, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSPC,
     _______, KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, _______, KC_SLSH, KC_4,    KC_5,    KC_6,    KC_MINS, _______,
     _______, _______, _______, _______, _______, _______, KC_ASTR, KC_1,    KC_2,    KC_3,    KC_PLUS, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, KC_0,    KC_DOT,  KC_EQL,  _______
 ),
 
 [_RAISE] = LAYOUT_planck_grid(
-    _______, _______, KC_CIRC, KC_PERC, KC_GRV,  _______, _______, _______, KC_PLUS, KC_MINS, _______, KC_BSPC,
-    _______, KC_DLR,  KC_HASH, KC_AT,   KC_EXLM, KC_TILD, KC_LT,   TD_PRN,  TD_CBR,  TD_BRC,  KC_GT,   _______,
-    _______, _______, KC_PIPE, KC_ASTR, KC_AMPR, _______, _______, KC_EQL,  KC_UNDS, KC_BSLS, _______, _______,
+    _______, _______, KC_CIRC, KC_PERC, KC_GRV,  _______, _______, KC_LBRC, KC_RBRC, KC_MINS, KC_PLUS, KC_BSPC,
+    _______, KC_DLR,  KC_HASH, KC_AT,   KC_EXLM, KC_TILD, KC_LT,   KC_LPRN, KC_RPRN, KC_EQL,  KC_GT,   _______,
+    _______, _______, KC_PIPE, KC_ASTR, KC_AMPR, _______, _______, KC_LCBR, KC_RCBR, KC_UNDS, KC_BSLS, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
 ),
 
 [_ADJUST] = LAYOUT_planck_grid(
-    _______, RESET,   DEBUG,   QWERTY,  COLEMAK, DVORAK,  _______, _______, _______, _______, _______, _______,
+    _______, RESET,   DEBUG,   QWERTY,  COLEMAK, DVORAK,  _______, _______, _______, _______, _______, KC_DEL,
     _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
@@ -148,7 +148,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, _______, _______, _______, _______, _______, _______, KC_F7,   KC_F8,   KC_F9,   KC_F10, _______,
     _______, _______, _______, _______, _______, _______, _______, KC_F4,   KC_F5,   KC_F6,   KC_F11, _______,
     _______, _______, _______, _______, _______, _______, _______, KC_F1,   KC_F2,   KC_F3,   KC_F12, _______,
-    _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
+    _______, _______, _______, _______, _______, KC_MPLY, KC_MPLY, _______, KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT
 )
 
 };
